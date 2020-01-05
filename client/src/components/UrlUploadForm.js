@@ -4,7 +4,7 @@ import styles from '../style/UrlUploadForm.module.css'
 
 const UrlUploadForm = (props) => {
 
-    const [inputUrl, setInPutUrl]= useState('https://kidsfirstpediatrics.com/wp-content/uploads/2017/07/324D202500000578-3498922-image-a-33_1458315465874.jpg')
+    const [inputUrl, setInPutUrl]= useState('paste your URL here')
 
     const handleOnChangeUrlInput = (e) => {
         setInPutUrl(e.target.value)
