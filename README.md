@@ -14,7 +14,7 @@ Install client dependencies
 
 # Usage
 
-![](https://github.com/huyenluu/meme-generator-react/blob/master/usage.gif =500x500)
+![](https://github.com/huyenluu/meme-generator-react/blob/master/usage.gif)
 
 
 ## Available Scripts
