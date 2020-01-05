@@ -12,7 +12,7 @@ const TextPropsPicker = ({changeText, updateFont, updateFontSize, updateColor, t
         <Card title = 'Enter your text'>
             <div className="meme-form">
                 <FormGroup>
-                    <Label for="toptext">Top Text</Label>
+                    <Label htmlFor="toptext">Top Text</Label>
                     <input 
                         className="form-control" 
                         type="text" name="toptext" 
@@ -21,7 +21,7 @@ const TextPropsPicker = ({changeText, updateFont, updateFontSize, updateColor, t
                         onChange={changeText} />
                 </FormGroup>
                 <FormGroup>
-                    <Label for="bottomtext">Bottom Text</Label>
+                    <Label htmlFor="bottomtext">Bottom Text</Label>
                     <input 
                     className="form-control" 
                     type="text" name="bottomtext" 
@@ -35,14 +35,14 @@ const TextPropsPicker = ({changeText, updateFont, updateFontSize, updateColor, t
         <Card title = "Edit text style">    
             <div className="TextPropsPicker">
                 <FormGroup>
-                    <Label for="font">Font:</Label>
+                    <Label htmlFor="font">Font:</Label>
                     <select  className="form-control" id ='font' value= {fontFamily} onChange={updateFont}>
                         {fonts.map(s => <option key={s} value={s}>{s}</option>)}
                     </select>
                 </FormGroup>
                 
                 <FormGroup>                 
-                    <Label htmlfor="sizeRange">Font size</Label>
+                    <Label htmlFor="sizeRange">Font size</Label>
                     <input 
                         type="range" 
                         value={parseInt(fontSize)} 
