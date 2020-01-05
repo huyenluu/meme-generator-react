@@ -1,0 +1,16 @@
+.sidebar {
+    width: 100%;
+    background: #292c31;
+    min-height: 100vh;
+    padding: 40px;
+}
+  
+.sidebar p {
+margin-bottom: 30px;
+font-size: 15.12px;
+display: inline-block;
+color: #fff;
+letter-spacing: 1px;
+font-weight: 300;
+text-align: center;
+}

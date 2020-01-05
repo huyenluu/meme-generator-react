@@ -1,7 +1,7 @@
 import React, {useState, useRef, useEffect } from 'react';
-import styles from '../style/UploadButton.module.css'
+import styles from './UploadButton.module.css'
 import axios from 'axios';
-import UrlUploadForm from './UrlUploadForm'
+import UrlUploadForm from '../UrlUploadForm/UrlUploadForm'
 
 const UploadButton = (props) => {
 

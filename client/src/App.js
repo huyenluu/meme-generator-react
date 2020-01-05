@@ -1,6 +1,6 @@
 import React ,{useState} from 'react';
-import Main from './views/MainPage'
-import UploadButton from './components/UploadButton';
+import Main from './components/MainPage/MainPage'
+import UploadButton from './components/UploadButton/UploadButton';
 
 function App() {
 

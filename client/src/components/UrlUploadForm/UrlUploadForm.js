@@ -1,6 +1,6 @@
 import React, { useState } from 'react'
 import axios from 'axios';
-import styles from '../style/UrlUploadForm.module.css'
+import styles from './UrlUploadForm.module.css'
 
 const UrlUploadForm = (props) => {
 

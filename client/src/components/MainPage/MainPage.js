@@ -1,7 +1,9 @@
 import React from 'react';
-import TextPropsPicker from '../components/TextPropsPicker';
-import SideBar from '../components/SideBar';
-import MainContent from '../components/MainContent';
+import {NavbarBrand} from'reactstrap';
+import TextPropsPicker from '../TextPropsPicker/TextPropsPicker';
+import SideBar from '../SideBar/SideBar';
+import CanvasContainer from '../CanvasContainer/CanvasContainer';
+import './MainPage.css'
 
 const initialState = {
   toptext: "",
@@ -173,9 +175,8 @@ class Main extends React.Component {
     <div className = 'container-fluid'>
       <div className='row'>
       <SideBar>
-          <nav className="navbar">
-            <a className="navbar-brand" href="/">Meme Generator</a>
-          </nav>
+          <NavbarBrand href="/">Meme Generator</NavbarBrand>
+          <hr className ='nav-divider'/>
           <div>
             <TextPropsPicker
               changeText = {this.changeText}
@@ -192,7 +193,7 @@ class Main extends React.Component {
             </button>
           </div>
         </SideBar>
-      <MainContent>
+      <CanvasContainer>
           <div className="image-holder" style ={{display: 'none'}}>
               <img
               alt=''
@@ -244,7 +245,7 @@ class Main extends React.Component {
             </div>
             )}
             <p style ={{color: '#666666'}}>Drag text to move</p>
-        </MainContent>
+        </CanvasContainer>
         
       </div>
         

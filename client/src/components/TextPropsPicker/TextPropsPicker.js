@@ -1,7 +1,8 @@
 import React from 'react';
 import {FormGroup, Label} from 'reactstrap';
-import Card from './Card'
+import Card from '../Card/Card';
 import { CirclePicker } from 'react-color';
+import './TextPropsPicker.css';
 
 const fonts = ['Impact','Arial', 'Comic Sans MS', 'Pacifico'];
 
