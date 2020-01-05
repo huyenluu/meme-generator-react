@@ -14,6 +14,9 @@ Install client dependencies
 
 # Usage
 
+![](https://github.com/huyenluu/meme-generator-react/blob/master/usage.gif =500x500)
+
+
 ## Available Scripts
 
 In the top-level project directory, you can run:
