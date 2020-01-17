@@ -37,11 +37,19 @@ Clone the repository
 
 Change directory
 
-### `cd meme-generator react`
+### `cd meme-generator-react`
 
-Install backend and frontend dependencies
+Install backend dependencies
 
-### `npm install && npm --prefix ./client install ./client`
+### `npm install`
+
+Install client dependencies
+
+### `cd client`
+### `npm install`
+
+Change back to main directory
+### `cd ..`
 
 Run the app
 
